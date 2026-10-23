@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Parks - Home</title>
+    <!-- Đảm bảo link đúng đến file CSS của bạn -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Yêu cầu 2: Skip to Main Content Link -->
+    <a href="#main" class="skip-link">Skip to Main Content</a>
+
+    <header>
+        <nav>
+            <img src="images/logo.png" alt="Site Logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="parks.html">Parks</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Yêu cầu 2: Thêm id="main" vào thẻ main -->
+    <main id="main">
+        <h1>Welcome to National Parks</h1>
+        
+        <!-- Ví dụ phần sử dụng class grid -->
+        <section class="grid">
+            <div>
+                <img src="images/park1.jpg" alt="Park 1">
+                <p>Park Description 1</p>
+            </div>
+            <div>
+                <img src="images/park2.jpg" alt="Park 2">
+                <p>Park Description 2</p>
+            </div>
+        </section>
+
+        <!-- Ví dụ phần sử dụng class flex (trên trang parks hoặc trang khác) -->
+        <section class="flex">
+            <div>Gallery Item 1</div>
+            <div>Gallery Item 2</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 National Parks Website</p>
+    </footer>
+
+</body>
+</html>
